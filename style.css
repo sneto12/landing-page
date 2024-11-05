@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.logo img {
+    max-height: 75px;
+}
+
+header {
+    background-color: #585B4C;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #D2D2EB;
+    font-weight: bold;
+    padding: 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #826D62;
+    border-radius: 5px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #826D62;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #826D62;
+    border: none;
+    color: #D2D2EB;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+
+.hero {
+    background-color: #826D62;
+    color: #D2D2EB;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #AA9D9F;
+    color: #2A2C24;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.places {
+    padding: 50px 20px;
+}
+
+.places h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+
+.btn-secondary {
+    background-color: #585B4C;
+    color: #D2D2EB;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Section Témoignages */
+.temoignages {
+    background-color: #585B4C;
+    color: #D2D2EB;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.temoignages h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #AA9D9F;
+}
+
+.temoignages-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.temoignage {
+    background-color: #826D62;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.temoignage p {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.temoignage h4 {
+    margin-top: 15px;
+    color: #D2D2EB;
+}
+
+
+footer {
+    background-color: #2A2C24;
+    color: #D2D2EB;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #AA9D9F;
+    text-decoration: none;
+}
